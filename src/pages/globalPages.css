@@ -1,0 +1,166 @@
+/* Accueil */
+
+/* firstCard */
+#monaco {
+  list-style-type: square;
+}
+
+.main {
+  position: relative;
+  background-image: url("../../public/assets/accueilBG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+}
+
+
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.alignText {
+  margin-top: 30vh;
+}
+
+/* Third Card */
+.mainThird {
+  position: relative;
+  background-image: url("../../public/assets/thirdcardbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.mainThird::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+}
+
+#imgthird{
+  margin-top: 80px !important;
+}
+
+#mainSixth{
+  z-index: 1;
+  position: absolute;
+  margin-left: 50vh;
+  width: 400px;
+}
+#cards{
+  width: 18rem !important;
+}
+
+.tenthCard{
+  position: relative;
+  background-image: url("../../public/assets/tenthImg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.tenthCard::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+}
+#cardTenth{
+  width: 25rem !important;
+margin-top: 10px;
+
+}
+#feedback{
+  margin-top: -20vh;
+  margin-left: 40vh;
+}
+
+#cardTenth img{
+  width: 50px;
+}
+#mascotSixth{
+  position: relative;
+  margin-left: 155vh;
+  margin-top: 10vh;
+  transform: rotate(50deg);
+}
+
+#secondNinthImg{
+  margin-top: -40vh;
+  margin-left: 15vh;
+}
+.elevenCard{
+  margin-top: 30vh;
+  padding: 10px;
+}
+
+.twelfthCard {
+  position: relative;
+  background-image: url("../../public/assets/twelfthCardimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.twelfthCard::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+}
+
+#contentTweflth{
+  margin-top: 25vh;
+}
+
+
+@media screen and (max-width: 576px) {
+  .alignText {
+    margin-top: 10vh;
+  }
+  #mascotSixth,
+  #firstImgSixth,
+  #secondImg,
+  #imgthird{
+    display: none !important;
+  }
+ .textFourth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  #textthird{
+    font-size: 13px !important;
+  }
+  #responsiveSixth{
+    display:grid !important;
+  }
+  .btnSixth{
+    display: flex;
+    justify-content: center;
+  }
+  #mainSixth{
+    width: 10vh !important;
+  }
+
+}
