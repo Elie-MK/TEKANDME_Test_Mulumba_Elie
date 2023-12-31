@@ -36,7 +36,7 @@ function SixthCard() {
         </div>
       </div>
       <div className="container p-5 ">
-        <div className=" d-flex justify-content-center" id="mainSixth">
+        <div className=" d-flex justify-content-center  " id="mainSixth">
           <img src="/assets/videobg.png"  />
         </div>
         <div className="d-flex justify-content-center" id="mascotSixth">
@@ -49,7 +49,7 @@ function SixthCard() {
       
           <img src="/assets/youtube.png" />
    
-        <div className="  fs-5 fw-bold">
+        <div className=" fs-5 fw-bold">
           VOIR NOTRE CHAINE YOUTUBE
         </div>
       </button>

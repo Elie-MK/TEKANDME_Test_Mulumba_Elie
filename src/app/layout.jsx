@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import { Orbitron } from 'next/font/google'
-import './globals.css'
+import '../styles/global.scss'
 import BootstrapClient from '@/components/BootstrapClient'
 
 const orbitron = Orbitron({ subsets: ['latin'] })

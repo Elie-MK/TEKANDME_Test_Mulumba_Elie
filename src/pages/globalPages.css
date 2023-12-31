@@ -82,11 +82,7 @@
   left: 0;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
 }
-#cardTenth{
-  width: 25rem !important;
-margin-top: 10px;
 
-}
 #feedback{
   margin-top: -20vh;
   margin-left: 40vh;
@@ -99,7 +95,7 @@ margin-top: 10px;
   position: relative;
   margin-left: 155vh;
   margin-top: 10vh;
-  transform: rotate(50deg);
+  transform: rotate(50deg); 
 }
 
 #secondNinthImg{
@@ -134,6 +130,7 @@ margin-top: 10px;
 }
 
 
+
 @media screen and (max-width: 576px) {
   .alignText {
     margin-top: 10vh;
@@ -149,9 +146,7 @@ margin-top: 10px;
   justify-content: center;
   align-items: center;
  }
-  #textthird{
-    font-size: 13px !important;
-  }
+
   #responsiveSixth{
     display:grid !important;
   }
@@ -162,5 +157,31 @@ margin-top: 10px;
   #mainSixth{
     width: 10vh !important;
   }
+  .mainThird{
+    height: 70vh;
+  }
+  .main{
+    height: 45vh;
+  }
+#mainSixth,
+#mascotSixth{
+  display: none !important;
+}
+
+#textthird,
+.secondText{
+  font-size: 18px;
+  text-align: justify;
+  
+}
+#feedback{
+  margin-top: 5vh;
+  margin-left: 0vh;
+}
+
+.twelfthCard{
+  height: 70vh;
+}
 
 }
+

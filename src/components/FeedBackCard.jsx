@@ -3,13 +3,12 @@ const manrope = Manrope({ subsets: ['latin'] })
 
 function FeedBackCard({name, image, text}) {
     return (
-        <div className="card" id="cardTenth">
-        <img src={image} className="card-img-top mx-3 my-3" alt="..." />
+        <div className="card mt-3  rounded-0 col-9" id="cardTenth" >
+        <img src={image} className="card-img-top mx-3 my-2 d-none d-sm-inline" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <div className={manrope.className}>
-
-          <p className="card-text">
+          <p className="card-text fs-6">
          {text}
           </p>
           </div>

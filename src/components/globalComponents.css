@@ -7,7 +7,25 @@
     height: 60vh;
     background-repeat: no-repeat;
 }
+#dataImg2 {
+  position: relative;
+  width: 300px;
+  background-image: url("../../public/assets/zinguerie.png");
+    background-size: contain;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+#dataImg3 {
+  position: relative;
+  width: 300px;
+  background-image: url("../../public/assets/façade.png");
+    background-size: contain;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
 
+#dataImg3::before,
+#dataImg2::before,
 #dataImg::before {
   content: "";
   position: absolute;
@@ -30,3 +48,18 @@
     font-size: 12px;
 }
 
+@media screen and (max-width: 576px) {
+  #dataImg3,
+  #dataImg2,
+  #dataImg{
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #dataImg3,
+  #dataImg2,
+  #dataImg{
+    height: 60vh;
+  }
+}
