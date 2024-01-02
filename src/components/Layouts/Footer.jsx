@@ -114,7 +114,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="row d-flex align-items-center">
+      <div className="row d-flex align-items-center pb-2">
         <div className="col-sm-5">
           <p className="textCopyrightFooter">
             © 2023, tous droits réservés. Développé par Tendances.Group{" "}
