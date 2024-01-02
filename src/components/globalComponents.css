@@ -2,7 +2,7 @@
 #dataImg {
   position: relative;
   width: 300px;
-  background-image: url("../../public/assets/charpente.png");
+  background-image: url("../../public/assets/service1.png");
     background-size: contain;
     height: 60vh;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 #dataImg2 {
   position: relative;
   width: 300px;
-  background-image: url("../../public/assets/zinguerie.png");
+  background-image: url("../../public/assets/service2.png");
     background-size: contain;
     height: 60vh;
     background-repeat: no-repeat;
@@ -18,13 +18,13 @@
 #dataImg3 {
   position: relative;
   width: 300px;
-  background-image: url("../../public/assets/façade.png");
+  background-image: url("../../public/assets/service3.png");
     background-size: contain;
     height: 60vh;
     background-repeat: no-repeat;
 }
 
-#dataImg3::before,
+/* #dataImg3::before,
 #dataImg2::before,
 #dataImg::before {
   content: "";
@@ -38,7 +38,7 @@
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 1)
   );
-}
+} */
 
 #marginText{
     margin-top: 140px;
@@ -56,10 +56,3 @@
   }
 }
 
-@media screen and (max-width: 390px) {
-  #dataImg3,
-  #dataImg2,
-  #dataImg{
-    height: 60vh;
-  }
-}

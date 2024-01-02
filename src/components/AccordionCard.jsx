@@ -8,7 +8,7 @@ function AccordionCard() {
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
-                    aria-expanded="true"
+                    aria-expanded="false"
                     aria-controls="collapseOne"
                   >
                     Peut-on utiliser des tuiles de couverture pour jouer au
