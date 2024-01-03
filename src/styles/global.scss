@@ -9,6 +9,7 @@ $theme-colors: (
   "dark": #000103,
 );
 
+
 $font-sizes: (
   1: 64px,
   2: 40px,
@@ -21,6 +22,7 @@ $font-sizes: (
 $dropdown-link-active-color: #000103;
 $dropdown-link-hover-bg: #ffbe0b;
 $dropdown-link-active-bg: #ffbe0b;
+
 
 /* Accueil */
 
@@ -217,23 +219,23 @@ $dropdown-link-active-bg: #ffbe0b;
   margin-top: 140px;
 }
 
-@media screen and (max-width: 390px) {
-  .mainThird,
-  .main {
-    height: 100vh;
-  }
-  #dataImg3,
-  #dataImg2,
-  #dataImg {
-    height: 40vh;
-  }
+// @media   (max-width: 390px) {
+//   .mainThird,
+//   .main {
+//     height: 100vh;
+//   }
+//   #dataImg3,
+//   #dataImg2,
+//   #dataImg {
+//     height: 40vh;
+//   }
 
-  #feedback {
-    margin-top: 5vh;
-    margin-left: 0vh;
-  }
-}
-@media screen and (max-width: 576px) {
+//   #feedback {
+//     margin-top: 5vh;
+//     margin-left: 0vh;
+//   }
+// }
+@media (min-width: 390px) and (max-width: 576px) {
 
   .alignText {
     margin-top: 10vh;
@@ -244,7 +246,7 @@ $dropdown-link-active-bg: #ffbe0b;
   }
   
   .main {
-    height: 55vh;
+    height: 60vh;
   }
 
   .twelfthCard {
@@ -261,4 +263,5 @@ $dropdown-link-active-bg: #ffbe0b;
 
 }
 
+@import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/bootstrap";
