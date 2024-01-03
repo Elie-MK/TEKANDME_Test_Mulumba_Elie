@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
  
   return (
     <html lang="en">
+      <link rel="icon" href="/assets/Logo.jpg" sizes="any" />
       <body className={orbitron.className}>
         {children}
         <BootstrapClient />
