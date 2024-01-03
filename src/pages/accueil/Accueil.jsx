@@ -640,15 +640,15 @@ function Accueil() {
       {/* ThirteenthCard */}
 
       <div className="container">
-        <div className="row pb-4">
+        <div className="d-flex gap-5 align-items-center pb-4">
           <div
-            className="col-sm d-none d-sm-flex "
+            className=" d-none d-sm-flex "
             data-aos-offset="500"
             data-aos="fade-up-right"
           >
             <img src="assets/ThirrteenthImg.png" alt="" width={350} />
           </div>
-          <div className="col-sm d-flex align-items-center ">
+          <div className=" d-flex align-items-center ">
             <div data-aos-offset="500" data-aos="zoom-in-up">
               <div>
                 <p className="fs-2 fw-bold">
