@@ -1,10 +1,14 @@
+import { Manrope } from "next/font/google";
+
+const manrope = Manrope({ subsets: ["latin"] });
+
 function AccordionCard() {
     return (
         <div className="accordion" id="accordionExample">
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button fw-bold"
+                    className="accordion-button fw-bold fs-3"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
@@ -20,18 +24,20 @@ function AccordionCard() {
                   className="accordion-collapse collapse show"
                   data-bs-parent="#accordionExample"
                 >
-                  <div className="accordion-body">
+                  <div className="accordion-body fs-4">
+                    <p className={manrope.className}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Pellentesque dignissim enim sit amet venenatis urna
                     cursus eget nunc.
+                    </p>
                   </div>
                 </div>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed fw-bold"
+                    className="accordion-button collapsed fw-bold fs-3"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
@@ -46,23 +52,20 @@ function AccordionCard() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div className="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>{" "}
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                   <div className="accordion-body fs-4">
+                    <p className={manrope.className}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Pellentesque dignissim enim sit amet venenatis urna
+                    cursus eget nunc.
+                    </p>
                   </div>
                 </div>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed fw-bold"
+                    className="accordion-button collapsed fw-bold fs-3"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
@@ -78,23 +81,20 @@ function AccordionCard() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div className="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                   <div className="accordion-body fs-4">
+                    <p className={manrope.className}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Pellentesque dignissim enim sit amet venenatis urna
+                    cursus eget nunc.
+                    </p>
                   </div>
                 </div>
               </div>
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed fw-bold"
+                    className="accordion-button collapsed fw-bold fs-3"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFour"
@@ -109,16 +109,13 @@ function AccordionCard() {
                   className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div className="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                   <div className="accordion-body fs-4">
+                    <p className={manrope.className}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Pellentesque dignissim enim sit amet venenatis urna
+                    cursus eget nunc.
+                    </p>
                   </div>
                 </div>
               </div>

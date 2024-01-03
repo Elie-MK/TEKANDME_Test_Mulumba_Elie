@@ -9,7 +9,7 @@ function NavBar() {
   const [select, setSelect] = useState("accueil");
 
   return (
-    <nav className="navbar navbar-expand-lg  mx-5 p-4 bg-white">
+    <nav className="navbar navbar-expand-lg mx-md-5  p-4 bg-white">
       <div className="container-fluid ">
         <div>
           <Image src="/assets/Logo.jpg" alt="Logo" width={70} height={45} />

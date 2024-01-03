@@ -9,7 +9,7 @@ function CardItem({title, img, desc}) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <div className={manrope.className}>
-          <p className="card-text mb-3">
+          <p className="card-text mb-3 fs-5">
             {desc}
           </p>
           </div>

@@ -1,17 +1,26 @@
-
 $theme-colors: (
-  'primary': #093ea8,
-  'secondary': #3bd7ec,
-  'success': #22e11c,
-  'info': #d9ff50,
-  'warning': #ffbe0b,
-  'danger': #ff0000,
-  'light': #c0ccda,
-  'dark': #000103,
+  "primary": #093ea8,
+  "secondary": #3bd7ec,
+  "success": #22e11c,
+  "info": #d9ff50,
+  "warning": #ffbe0b,
+  "danger": #ff0000,
+  "light": #c0ccda,
+  "dark": #000103,
 );
-$dropdown-link-active-color:#000103;
-$dropdown-link-hover-bg:#ffbe0b;
-$dropdown-link-active-bg:#ffbe0b;
+
+$font-sizes: (
+  1: 64px,
+  2: 40px,
+  3: 24px,
+  4: 18px,
+  5: 16px,
+  6: 14px,
+);
+
+$dropdown-link-active-color: #000103;
+$dropdown-link-hover-bg: #ffbe0b;
+$dropdown-link-active-bg: #ffbe0b;
 
 /* Accueil */
 
@@ -28,7 +37,6 @@ $dropdown-link-active-bg:#ffbe0b;
   background-position: center;
   height: 90vh;
 }
-
 
 .main::before {
   content: "";
@@ -54,7 +62,6 @@ $dropdown-link-active-bg:#ffbe0b;
   height: 100vh;
 }
 
-
 .mainThird::before {
   content: "";
   position: absolute;
@@ -62,24 +69,28 @@ $dropdown-link-active-bg:#ffbe0b;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.9)
+  );
 }
 
-#imgthird{
+#imgthird {
   margin-top: 80px !important;
 }
 
-#mainSixth{
+#mainSixth {
   z-index: 1;
   position: absolute;
   margin-left: 50vh;
   width: 400px;
 }
-#cards{
+#cards {
   width: 18rem !important;
 }
 
-.tenthCard{
+.tenthCard {
   position: relative;
   background-image: url("../../public/assets/tenthImg.png");
   background-size: cover;
@@ -88,36 +99,40 @@ $dropdown-link-active-bg:#ffbe0b;
   height: 100vh;
 }
 
-.tenthCard::before{
+.tenthCard::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.5)
+  );
 }
 
-#feedback{
+#feedback {
   margin-top: -20vh;
   margin-left: 40vh;
 }
 
-#cardTenth img{
+#cardTenth img {
   width: 50px;
 }
-#mascotSixth{
+#mascotSixth {
   position: relative;
   margin-left: 155vh;
   margin-top: 10vh;
-  transform: rotate(50deg); 
+  transform: rotate(50deg);
 }
 
-#secondNinthImg{
+#secondNinthImg {
   margin-top: -40vh;
   margin-left: 15vh;
 }
-.elevenCard{
+.elevenCard {
   margin-top: 30vh;
   padding: 10px;
 }
@@ -130,54 +145,56 @@ $dropdown-link-active-bg:#ffbe0b;
   background-position: center;
   height: 100vh;
 }
-.twelfthCard::before{
+.twelfthCard::before {
   content: "";
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.8)
+  );
 }
 
-#contentTweflth{
+#contentTweflth {
   margin-top: 25vh;
 }
 
-
-#marginText{
+#marginText {
   margin-top: 140px;
 }
 
-#paragraph{
+#paragraph {
   font-size: 12px;
 }
-
 
 /* CardCarousel */
 #dataImg {
   position: relative;
   width: 300px;
   background-image: url("../../public/assets/service1.png");
-    background-size: contain;
-    height: 60vh;
-    background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  background-repeat: no-repeat;
 }
 #dataImg2 {
   position: relative;
   width: 300px;
   background-image: url("../../public/assets/service2.png");
-    background-size: contain;
-    height: 60vh;
-    background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  background-repeat: no-repeat;
 }
 #dataImg3 {
   position: relative;
   width: 300px;
   background-image: url("../../public/assets/service3.png");
-    background-size: contain;
-    height: 60vh;
-    background-repeat: no-repeat;
+  background-size: contain;
+  height: 60vh;
+  background-repeat: no-repeat;
 }
 
 /* #dataImg3::before,
@@ -196,72 +213,52 @@ $dropdown-link-active-bg:#ffbe0b;
   );
 } */
 
-#marginText{
-    margin-top: 140px;
+#marginText {
+  margin-top: 140px;
 }
 
-#paragraph{
-    font-size: 12px;
-}
+@media screen and (max-width: 390px) {
+  .mainThird,
+  .main {
+    height: 100vh;
+  }
+  #dataImg3,
+  #dataImg2,
+  #dataImg {
+    height: 40vh;
+  }
 
+  #feedback {
+    margin-top: 5vh;
+    margin-left: 0vh;
+  }
+}
 @media screen and (max-width: 576px) {
+
   .alignText {
     margin-top: 10vh;
   }
-  #mascotSixth,
-  #firstImgSixth,
-  #secondImg,
-  #imgthird{
-    display: none !important;
-  }
- .textFourth{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
 
-  #responsiveSixth{
-    display:grid !important;
-  }
-  .btnSixth{
-    display: flex;
-    justify-content: center;
-  }
-  #mainSixth{
+  #mainSixth {
     width: 10vh !important;
   }
-  .mainThird{
+  
+  .main {
+    height: 55vh;
+  }
+
+  .twelfthCard {
     height: 70vh;
   }
-  .main{
-    height: 45vh;
+
+  #dataImg3,
+  #dataImg2,
+  #dataImg {
+    height: 40vh;
   }
-#mainSixth,
-#mascotSixth{
-  display: none !important;
-}
 
-#textthird,
-.secondText{
-  font-size: 18px;
-  text-align: justify;
   
-}
-#feedback{
-  margin-top: 5vh;
-  margin-left: 0vh;
+
 }
 
-.twelfthCard{
-  height: 70vh;
-}
-
-#dataImg3,
-#dataImg2,
-#dataImg{
-  height: 40vh;
-}
-}
-
-
-@import '../../node_modules/bootstrap/scss/bootstrap';
+@import "../../node_modules/bootstrap/scss/bootstrap";

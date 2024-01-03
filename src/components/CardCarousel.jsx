@@ -1,8 +1,10 @@
+import { Manrope } from "next/font/google";
 
+const manrope = Manrope({ subsets: ["latin"] });
 
 function CardCarousel() {
   return (
-    <div className="d-sm-flex  justify-content-sm-between ">
+    <div className="d-sm-flex d-block  justify-content-sm-between ">
       <div className="mb-2" id="dataImg">
         <div className="position-absolute mx-3 my-4">
           <div className=" d-flex justify-content-start  ">
@@ -11,11 +13,13 @@ function CardCarousel() {
             </div>
           </div>
           <div className="" id="marginText">
-            <p className="text-light fs-4 fw-bold">Charpente</p>
-            <p className="text-light" id="paragraph">
-              Morbi tristique senectus et netus et malesuada fames ac turpis.
-              Nisl rhoncus mattis rhoncus urna neque viverra...
-            </p>
+            <p className="text-light fs-3 fw-bold">Charpente</p>
+            <div className={manrope.className}>
+              <p className="text-light fs-6 col-11 ">
+                Morbi tristique senectus et netus et malesuada fames ac
+                turpis...
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -27,11 +31,13 @@ function CardCarousel() {
             </div>
           </div>
           <div className="" id="marginText">
-            <p className="text-light fs-4 fw-bold">Zinguerie</p>
-            <p className="text-light" id="paragraph">
-              Morbi tristique senectus et netus et malesuada fames ac turpis.
-              Nisl rhoncus mattis rhoncus urna neque viverra...
-            </p>
+            <p className="text-light fs-3 fw-bold">Zinguerie</p>
+            <div className={manrope.className}>
+              <p className="text-light fs-6 col-11 ">
+                Morbi tristique senectus et netus et malesuada fames ac
+                turpis...
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -43,11 +49,13 @@ function CardCarousel() {
             </div>
           </div>
           <div className="" id="marginText">
-            <p className="text-light fs-4 fw-bold">Façade</p>
-            <p className="text-light" id="paragraph">
-              Morbi tristique senectus et netus et malesuada fames ac turpis.
-              Nisl rhoncus mattis rhoncus urna neque viverra...
-            </p>
+            <p className="text-light fs-3 fw-bold">Façade</p>
+            <div className={manrope.className}>
+              <p className="text-light fs-6 col-11 ">
+                Morbi tristique senectus et netus et malesuada fames ac
+                turpis...
+              </p>
+            </div>
           </div>
         </div>
       </div>

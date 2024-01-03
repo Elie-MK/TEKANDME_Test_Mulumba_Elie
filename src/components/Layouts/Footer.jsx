@@ -16,7 +16,7 @@ function Footer() {
             </div>
 
             <div>
-              <p className="text-uppercase fw-bold mt-3 fs-4">
+              <p className="text-uppercase fw-bold mt-3 fs-3">
                 prenez rendez-vous dès maintenant
               </p>
             </div>
@@ -39,7 +39,7 @@ function Footer() {
                 </div>
 
                 <div className={manrope.className}>
-                  <p className="mt-3">1 rue Bel Respiro - 98000 Monaco</p>
+                  <p className="mt-3 fs-5">1 rue Bel Respiro - 98000 Monaco</p>
                 </div>
               </div>
 
@@ -80,49 +80,55 @@ function Footer() {
           <div className="row">
             <div className="col-sm">
               <p className="fw-bold">NAVIGATION</p>
-              <div>
+              <div className={manrope.className}>
+              <div className="mb-3">
                 <Link href="#">Accueil</Link>
               </div>
-              <div>
+              <div className="mb-3">
                 <Link href="#">A propos</Link>
               </div>
-              <div>
+              <div className="mb-3">
                 <Link href="#">Bureau d'études</Link>
               </div>
-              <div>
+              <div className="mb-3">
                 <Link href="#">Travaux</Link>
               </div>
-              <div>
+              <div className="mb-3">
                 <Link href="#">Actualtés</Link>
+              </div>
               </div>
             </div>
             <div className="col-sm">
               <p className="fw-bold">SERVICES</p>
+              <div className={manrope.className}>
 
-              <div>
+              <div className="mb-3">
                 <Link href="#">Charpente</Link>
               </div>
-              <div>
+              <div className="mb-3">
                 <Link href="#">Couverture</Link>
               </div>
-              <div>
+              <div className="mb-3">
                 <Link href="#">Zinguerie</Link>
               </div>
               <div>
                 <Link href="#">Façades</Link>
               </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="row d-flex align-items-center pb-2">
-        <div className="col-sm-5">
-          <p className="textCopyrightFooter">
+      <div className=" d-md-flex align-items-center justify-content-between pb-2">
+        <div className="">
+          <div className={manrope.className}>
+          <p className="textCopyrightFooter fs-5">
             © 2023, tous droits réservés. Développé par Tendances.Group{" "}
           </p>
+          </div>
         </div>
-        <div className="col-sm d-none d-sm-inline">
-          <img src="/assets/castordemi.png" alt="" width={100} />
+        <div className="col-sm d-none d-sm-inline mx-5">
+          <img src="/assets/castordemi.png" alt="" width={200} />
         </div>
         <div className="col-sm d-flex gap-3">
           <div>
